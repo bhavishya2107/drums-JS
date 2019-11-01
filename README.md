@@ -57,6 +57,6 @@ goes as below:
 
 ![Responsive DrumKit](https://github.com/bhavishya2107/drums-JS/blob/master/assets/media/drums.gif?raw=true)
 
-
+Look at the live drumkit here **[Drum-Kit](https://bhavishya2107.github.io/drums-JS/)**
 
 __Follow me here__ [Bhavishya@Github](https://github.com/bhavishya2107)
