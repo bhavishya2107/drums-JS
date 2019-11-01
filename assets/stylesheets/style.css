@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* mystyle */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+}
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+.key {
+  z-index: 1;
+  border: .4rem solid rgb(105, 90, 172);
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all 0.20s ease;
+  text-align: center;
+
+}
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: black;
+  font-weight: 700;
+}
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+.playing {
+  transform: scale(1.1);
+  color:rgb(9, 248, 196) ;
+  border: 0.3rem solid rgb(9, 248, 196);
+  background: rgba(175, 190, 187, 0.712);
+  border-radius: 1rem;
+}
+.section {
+  background: rgba(175, 190, 187, 0.712);
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+}
+/* media-queries */
+@media all and (max-width:768px) {
+  html {
+    font-size: 8px;
+  }
+  .section {
+    background: rgba(175, 190, 187, 0.712);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .kbd {
+    font-size: 2rem;
+  }
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 75vh;
+    align-items: center;
+    justify-content: center;
+  }
+}
