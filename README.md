@@ -28,7 +28,7 @@ You can find the video inside the __assets/media__ folder.
 
 ## media-queries
 
-I have also made the Drums to be responsive so there must not be any interruption for the player the code for the media-queries 
+I have also made the Drums to be responsive so there must not be any interruption for the player the code for the media-queries at present the functionality is not working on the mobile-view still working on it.
 goes as below:
 
 ```
