@@ -99,7 +99,7 @@ kbd {
   flex-direction: row;
 }
 /* media-queries */
-@media all and (max-width:768px) {
+@media all and (max-width:1024px) {
   html {
     font-size: 8px;
   }
