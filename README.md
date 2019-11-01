@@ -53,3 +53,6 @@ goes as below:
    }
 }
 ```
+### Responsive Drumkit
+
+![Responsive DrumKit](https://github.com/bhavishya2107/drums-JS/blob/master/assets/media/drums.gif?raw=true)
