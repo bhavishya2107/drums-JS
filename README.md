@@ -20,8 +20,36 @@ background-image.
 
 ```javascript
   <video autoplay muted loop id="myVideo">
-        <source src="drums.mp4">
+   <source src="drums.mp4">
   </video>
 ```
   
 You can find the video inside the __assets/media__ folder.
+
+## media-queries
+
+I have also made the Drums to be responsive so there must not be any interruption for the player the code for the media-queries 
+goes as below:
+
+```
+@media all and (max-width:768px) {
+   html {
+     font-size: 8px;
+   }
+   .section {
+     background: rgba(175, 190, 187, 0.712);
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+   }
+   .kbd {
+     font-size: 2rem;
+   }
+   .keys {
+     display: flex;
+     flex: 1;
+     min-height: 75vh;
+     align-items: center;
+     justify-content: center;
+   }
+}
+```
